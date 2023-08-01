@@ -190,7 +190,7 @@ class Program
         // Создаем персонажа с определенным именем
         Character player = new Character(playerName, playerAlignment);
         
-        player.Alignment = playerAlignment;
+    
 
         Character bandit = new Character("Бандит", Alignment.Evil)
         {
